@@ -5,7 +5,7 @@
 Exercício de Node, uma aplicação de listagem e cadastro de usuários.
 
 ## :books: Functions
-[]Should be able to create an user with all props<br>
+[x]Should be able to create an user with all props<br>
 []<br>
 []<br>
 []<br>
