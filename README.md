@@ -1,38 +1,36 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+# Exercício de Node.js
+<h1 align="center">:file_cabinet: Desafio04-Node.js-Rocketseat</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+## :memo: Descrição
+Exercício de Node, uma aplicação de listagem e cadastro de usuários.
 
+## :books: Functions
+[]Should be able to create an user with all props<br>
+[]<br>
+[]<br>
+[]<br>
 
-## 💻 Projeto
+## :books: Regras de negócio
+[]<br>
+[]<br>
+[]<br>
 
-ignite-template-introducao-ao-SOLID
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+```
+git clone git@github.com:ur4sh1/Desafio04-Node.js-Rocketseat.git
+```
+Instalar o yarn
+```
+yarn install
+```
+Executar o projeto
+```
+yarn dev
+```
 
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
-
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
-
+## :wrench: Histórico de comandos
+Executar testes dos endpoints
+```
+yarn test
+```
