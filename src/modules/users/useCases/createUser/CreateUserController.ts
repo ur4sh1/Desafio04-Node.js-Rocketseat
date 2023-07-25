@@ -1,5 +1,4 @@
 import { Response, Request } from "express";
-
 import { CreateUserUseCase } from "./CreateUserUseCase";
 
 class CreateUserController {
@@ -8,9 +7,14 @@ class CreateUserController {
   handle(request: Request, response: Response): Response {
     const { email, name } = request.body;
 
-    this.createUserUseCase.execute({ email, name });
-
-    return response.status(201).send();
+    try {
+      this.createUserUseCase.execute({ email, name });
+      return response.status(201).send();
+    } catch (error) {
+      return response.status(201).json({
+        error: error.message,
+      });
+    }
   }
 }
 

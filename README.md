@@ -5,10 +5,11 @@
 Exercício de Node, uma aplicação de listagem e cadastro de usuários.
 
 ## :books: Functions
-[x]Should be able to create an user with all props<br>
-[]<br>
-[]<br>
-[]<br>
+[x] should be able to create new users<br>
+[] should be able to list all users<br>
+[] should be able to find user by ID<br>
+[] should be able to find user by e-mail address<br>
+[] should be able to turn an user as admin<br>
 
 ## :books: Regras de negócio
 []<br>
