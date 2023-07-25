@@ -6,15 +6,10 @@ Exercício de Node, uma aplicação de listagem e cadastro de usuários.
 
 ## :books: Functions
 [x] should be able to create new users<br>
-[] should be able to list all users<br>
-[] should be able to find user by ID<br>
-[] should be able to find user by e-mail address<br>
-[] should be able to turn an user as admin<br>
-
-## :books: Regras de negócio
-[]<br>
-[]<br>
-[]<br>
+[x] should be able to list all users<br>
+[x] should be able to find user by ID<br>
+[x] should be able to find user by e-mail address<br>
+[x] should be able to turn an user as admin<br>
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
